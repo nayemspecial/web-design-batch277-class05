@@ -1,0 +1,34 @@
+.container{
+    display:flex;
+}
+.child1 {
+    background-color: aquamarine;
+}
+.child2 {
+    background-color:#b28c8c;
+}
+.child3 {
+    background-color:#a94646;
+}
+.padding-20{
+    padding:20px;
+}
+
+.menu ul {
+    display: flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 20px 0px 20px;
+    transition: .3s;
+}
+.menu ul li:hover a{
+    color: #f9f9f9;
+    background-color: #b28c8c;
+}
